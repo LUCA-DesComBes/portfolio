@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>-- Portfolio --</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<nav class="navbar">
+				<a href="#home" class="logo"><span>LD.</span></a>
+
+				<ul class="nav-links">
+					<li><a href="#apropos">A propos</a></li>
+					<li><a href="#projets">Projets</a></li>
+					<li><a href="#competence">Compétences</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+
+				<div class="burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</nav>
+		</header>
+
+		<main id="home">
+			<section class="first-sect">
+				<div class="intro">
+					<img
+						src="./assets/iwatani_naofumi_17818.webp"
+						alt="Photo de profil"
+					/>
+					<h1>Luca Descombes</h1>
+					<p>
+						Bonjour ! Je suis Luca Descombes, un jeune développeur web passionné
+						par le jeu vidéo et la musique.
+					</p>
+				</div>
+			</section>
+
+			<section class="second-sect" id="apropos">
+				<h2>A propos</h2>
+				<p>
+					Je me consacre souvent à créer des musiques ou des jeux en tout genre
+					et surtout à réfléchir sur mon jeu "Code Clicker".
+				</p>
+			</section>
+
+			<section class="project-sect" id="projets">
+				<h2>Projets</h2>
+
+				<div class="container">
+					<div class="div-card">
+						<div class="head-card">
+							<img src="./assets/puissance-4.png" alt="Puissance 4" />
+						</div>
+						<div class="body-card">
+							<h3>Puissance 4</h3>
+							<p>Un puissance 4 totalement fonctionnel sur le web.</p>
+
+							<div class="technos">
+								<span>HTML</span>
+								<span>CSS</span>
+								<span>JavaScript</span>
+							</div>
+
+							<a
+								href="https://github.com/LUCA-DesComBes/connect-four-game"
+								target="_blank"
+								>Voir le projet</a
+							>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="contact-sect" id="contact">
+				<h2>Contact</h2>
+
+				<form class="contact-form">
+					<input type="text" name="name" placeholder="Ton nom" required />
+					<input type="email" name="email" placeholder="Ton email" required />
+					<textarea
+						name="message"
+						placeholder="Ton message"
+						required
+					></textarea>
+					<button type="submit">Envoyer</button>
+				</form>
+			</section>
+		</main>
+
+		<script src="script.js"></script>
+	</body>
+</html>
